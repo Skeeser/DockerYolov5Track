@@ -29,5 +29,5 @@ RUN pip3 --version
 COPY rknn_toolkit_lite2-1.6.0-cp38-cp38-linux_aarch64.whl rknn_toolkit_lite2-1.6.0-cp38-cp38-linux_aarch64.whl
 RUN pip3 install rknn_toolkit_lite2-1.6.0-cp38-cp38-linux_aarch64.whl
 
-COPY 
+COPY yolov5_Deepsort_rknn /root/
 VOLUME /root/yolov5_Deepsort_rknn/data
